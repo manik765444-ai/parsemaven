@@ -1,0 +1,19 @@
+[package]
+name = "parsemaven"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <youremail@example.com>"]
+description = "A Rust markdown parser"
+license = "MIT"
+repository = "https://github.com/yourusername/parsemaven"
+readme = "README.md"
+
+[dependencies]
+pulldown-cmark = "0.9"
+serde = { version = "1.0", features = ["derive"] }
+regex = "1.7"
+log = "0.4"
+env_logger = "0.10"
+
+[dev-dependencies]
+criterion = "0.4"
